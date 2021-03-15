@@ -8,10 +8,10 @@ body {
 }
 .logo {
   width: 100px;
-  transition: transform 2s;
+  transition: transform 1s;
 }
 .logo:hover{
-  transform:rotate(10800deg);
+  transform:rotate(360deg);
 }
 .main-header{
   display:grid;
@@ -49,4 +49,28 @@ body {
   color:white;
   text-shadow:3px 3px 1px black;
   background-color:rgba(0,0,0,0,5);
+}
+.main-footer{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.copyright {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.social-nav {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  justify-self: end;
+}
+.social-nav a{
+  color:black;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 22px;
+  padding:5px;
+}
+.social-nav a:hover {
+  color:white;
 }
