@@ -72,7 +72,7 @@ body {
 }
 .copyright {
   grid-column-start: 1;
-  grid-row-start: 2;
+  grid-row-start: 2;  
 }
 .social-nav {
   grid-column-start: 3;
