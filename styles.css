@@ -18,7 +18,16 @@ body {
   grid-template-columns: 1fr 1fr;
   background-color:rgb(50,61,67);
 }
-
+.nav-button{
+  width: 54px;
+  height: 54px;
+  font-size: 42px;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  justify-self: end;
+  display:none;
+}
 .main-navigation{
   justify-self:end;
   align-self:center;
